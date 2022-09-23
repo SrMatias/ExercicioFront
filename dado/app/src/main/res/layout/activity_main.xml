@@ -72,4 +72,15 @@
         app:layout_constraintStart_toEndOf="@+id/buttonD6"
         app:layout_constraintTop_toBottomOf="@+id/textDADO" />
 
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="252dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#DA1414"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonD6" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
